@@ -1,0 +1,10 @@
+$ancho: 100%;
+$height: 100%;
+
+.div-container {
+    width: $ancho;
+    height: $height;
+    .imagen-principal {
+        width: $ancho + 1%;
+        height: $height + 1%;}
+                        }

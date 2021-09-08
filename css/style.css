@@ -1,0 +1,342 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer, .header {
+  display: flex;
+  justify-content: center;
+}
+
+.div-container {
+  width: 100%;
+  height: 100%;
+}
+.div-container .imagen-principal {
+  width: 101%;
+  height: 101%;
+}
+
+/* Header */
+.header {
+  padding: auto;
+  margin: auto;
+}
+.header .header ul {
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  font-family: "Lato";
+  font-size: 20px;
+  line-height: 10px;
+}
+.header .logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 75%;
+}
+
+/* Cuerpo de la pagina */
+body {
+  width: 100%;
+  height: 100%;
+  letter-spacing: 0.03cm;
+  line-height: 1.6;
+  font-family: "Lato", sans-serif;
+  background: #FEF7DC;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* h1 y parrafos */
+.h-uno {
+  padding: 10px;
+  border: 1px solid #c2b8a3;
+  color: black;
+  font-size: 35px;
+  text-align: center;
+}
+@media only screen and (max-width: 480px) {
+  .h-uno {
+    padding: 10px;
+    border: 1px solid #c2b8a3;
+    color: black;
+    font-size: 45px;
+    text-align: center;
+  }
+}
+
+.parrafo-principal {
+  margin: 5px;
+  padding: 5px;
+  color: black;
+  font-size: 20px;
+}
+@media only screen and (max-width: 480px) {
+  .parrafo-principal {
+    font-size: 25px;
+  }
+}
+
+/* Cards */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+@media only screen and (max-width: 480px) {
+  .container {
+    width: auto;
+    max-width: 100%;
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .container {
+    width: auto;
+    max-width: 100%;
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .container {
+    width: auto;
+    max-width: 100%;
+    height: 100%;
+  }
+}
+
+.container .card {
+  background-color: #c2b8a3;
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+}
+
+.container .card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12 16 rgba(0, 0, 0, 0.2);
+}
+
+.container .card img {
+  width: 400px;
+  height: 330px;
+  padding-top: 50px;
+}
+
+.container .card h3 {
+  font-weight: 600;
+}
+
+.container .card p {
+  font-weight: 800;
+  text-decoration: none;
+  color: black;
+}
+
+/* Footer */
+.footer {
+  background-color: #E6DDC6;
+  width: 100%;
+  height: 150px;
+  padding-top: 15px;
+}
+
+.redes-sociales {
+  color: black;
+}
+
+.iconos-redes-sociales {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* productos */
+.h1-productos {
+  border: 1px solid #c2b8a3;
+  text-align: center;
+}
+
+.div-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.div-container .card-producto:hover {
+  background-color: #3c3c3c;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+.div-container .card-producto {
+  background-color: white;
+  width: 250px;
+  height: 500px;
+  margin: 10px;
+}
+.div-container .card-producto h3 {
+  text-align: center;
+  padding: 10px;
+}
+.div-container .card-producto p {
+  text-align: center;
+  padding: 10px;
+}
+.div-container .card-producto a {
+  background-color: #2D2424;
+  color: white;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 20px 50px;
+}
+
+.card-imagen {
+  background-size: cover;
+  height: 251px;
+  margin-bottom: 15px;
+}
+
+/* CONTACTOS */
+.h1-contacto {
+  border: 1px solid #c2b8a3;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.section-contacto {
+  display: flex;
+  justify-content: space-around;
+}
+
+.horario {
+  color: black;
+  text-align: center;
+  padding: 25px;
+}
+
+.form-horarios {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  border: black solid 4px;
+  margin: 20px;
+  padding: 25px;
+}
+@media only screen and (max-width: 480px) {
+  .form-horarios {
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: black solid 4px;
+    margin: 20px;
+    padding: 25px;
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .form-horarios {
+    border: black solid 4px;
+    margin: 20px;
+    padding: 25px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .form-horarios {
+    border: black solid 4px;
+    margin: 20px;
+    padding: 25px;
+  }
+}
+
+.container-contacto {
+  border: black solid 2px;
+  margin: 15px;
+  padding: 20px;
+}
+
+/* Normas */
+.main-normas .h1 {
+  border: 1px solid #c2b8a3;
+  color: black;
+  text-align: center;
+}
+
+.p1 {
+  color: black;
+}
+
+.div-normas input[id^=spoiler] {
+  display: none;
+}
+.div-normas input[id^=spoiler] + label {
+  display: block;
+  width: 300px;
+  height: 100px;
+  margin: 20px auto;
+  padding: 15px 20px;
+  background: black;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+.div-normas input[id^=spoiler]:checked + label {
+  color: black;
+  background: #c2b8a3;
+}
+.div-normas input[id^=spoiler] ~ .spoiler {
+  width: 50%;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  margin: 10px auto 0;
+  padding: 10px;
+  font-size: 20px;
+  background: white;
+  border: 2px solid black;
+  border-radius: 8px;
+  transition: all 0.6s;
+}
+.div-normas input[id^=spoiler]:checked + label + .spoiler {
+  height: auto;
+  opacity: 1;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+@media only screen and (max-width: 480px) {
+  .div-normas input[id^=spoiler]:checked + label + .spoiler {
+    font-size: 20px;
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .div-normas input[id^=spoiler]:checked + label + .spoiler {
+    width: 99%;
+    font-size: 20px;
+  }
+}
+/* Sobre nosotros */
+.parrafo-sobre-nosotros {
+  text-align: center;
+  color: black;
+  font-size: 25px;
+}
+
+.h-uno-sobre-nosotros {
+  border: 1px solid #c2b8a3;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

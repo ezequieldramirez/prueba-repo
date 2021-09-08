@@ -1,0 +1,11 @@
+{
+  "name": "calzado-seguro",
+  "version": "1.0.0",
+  "description":"Empresa lider en el rubro, Comercializamos calzados de seguridad. Diseño, calidad, comodidad e innovación son algunas de las palabras que definen a nuestro calzado, incluyendo que contamos con las ultimas tecnologías. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ezequiel Ramirez",
+  "license": "ISC"
+}

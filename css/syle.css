@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer, .header {
+  display: flex;
+  justify-content: center;
+}
+
+.div-container {
+  width: 100%;
+  height: 100%;
+}
+.div-container .imagen-principal {
+  width: 101%;
+  height: 101%;
+}
+
+/* Header */
+.header {
+  padding: auto;
+  margin: auto;
+}
+.header .header ul {
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  font-family: "Lato";
+  font-size: 20px;
+  line-height: 10px;
+}
+
+/* Cuerpo de la pagina */
+body {
+  width: 100%;
+  height: 100%;
+  letter-spacing: 0.03cm;
+  line-height: 1.6;
+  font-family: "Lato", sans-serif;
+  background: #FEF7DC;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* Logo */
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 75%;
+}
+
+/* h1 y parrafos */
+.h-uno {
+  padding: 10px;
+  border: 1px solid #c2b8a3;
+  color: black;
+  font-size: 35px;
+  text-align: center;
+}
+
+.parrafo-principal {
+  margin: 5px;
+  padding: 5px;
+  color: black;
+  font-size: 15px;
+}
+
+/* Cards */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.container .card {
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+}
+
+.container .card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12 16 rgba(0, 0, 0, 0.2);
+}
+
+.container .card img {
+  width: 400px;
+  height: 330px;
+}
+
+.container .card h3 {
+  font-weight: 600;
+}
+
+.container .card p {
+  font-weight: 800;
+  text-decoration: none;
+  color: black;
+}
+
+/* Footer */
+.footer {
+  background-color: #E6DDC6;
+}
+
+.redes-sociales {
+  color: black;
+}
+
+.iconos-redes-sociales {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* productos */
+.div-container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.div-container .imagenes-borcegos {
+  display: flex;
+  justify-self: center;
+  margin: auto;
+}
+
+/* CONTACTOS */
+.section-contactos {
+  text-align: right;
+}
+
+.telefono {
+  color: grey;
+}
+
+.mail {
+  color: grey;
+}
+
+.direccion {
+  color: grey;
+}
+
+.horario {
+  color: black;
+  text-align: center;
+}
+
+.div-contacto {
+  padding: 10px 10px 10px 10px;
+  margin: 50px 50px 50px 50px;
+}
+
+/* Normas */
+.div-normas {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.h1 {
+  color: black;
+  text-align: center;
+}
+
+.p1 {
+  color: black;
+}
+
+.normas {
+  width: 200px;
+  height: 200px;
+}
+
+.parrafo-normas {
+  color: black;
+}
+
+.a-normas {
+  display: flex;
+}
+
+/* Sobre nosotros */
+.parrafo-sobre-nosotros {
+  text-align: center;
+  color: black;
+  font-size: 25px;
+}
+
+.h-uno-sobre-nosotros {
+  border: 1px solid #c2b8a3;
+  text-align: center;
+}
+
+/*# sourceMappingURL=syle.css.map */

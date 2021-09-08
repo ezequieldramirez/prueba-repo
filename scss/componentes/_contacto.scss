@@ -1,0 +1,57 @@
+     /* CONTACTOS */
+
+
+      .h1-contacto{ 
+         border: 1px solid #c2b8a3;
+         padding-top: 10px;
+         text-align: center;}   
+
+
+      .section-contacto {
+         display: flex;
+         justify-content: space-around;
+      }
+
+        .horario {color: black;
+         text-align: center;
+         padding: 25px;}
+           
+        
+         .form-horarios {
+            padding-top: 40px;
+            display: flex;
+            justify-content: center;
+            border: black solid 4px;
+            margin: 20px;
+            padding: 25px;
+            
+               @media only screen and (max-width: 480px) {
+               flex-direction: column;
+               flex-wrap: wrap;
+               border: black solid 4px;
+               margin: 20px;
+               padding: 25px;
+               font-size: 15px;
+           
+               }
+             
+               @media only screen and(max-width: 720px) {
+               border: black solid 4px;
+               margin: 20px;
+               padding: 25px;
+               }
+         
+               @media only screen and(max-width: 960px) {
+               border: black solid 4px;
+               margin: 20px;
+               padding: 25px;
+                     
+         
+               }
+            }
+            
+            .container-contacto {
+               border: black solid 2px;
+              margin: 15px;
+              padding: 20px;
+            }
