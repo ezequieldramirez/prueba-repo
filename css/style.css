@@ -63,7 +63,7 @@ body {
     padding: 10px;
     border: 1px solid #c2b8a3;
     color: black;
-    font-size: 45px;
+    font-size: 35px;
     text-align: center;
   }
 }
@@ -76,7 +76,7 @@ body {
 }
 @media only screen and (max-width: 480px) {
   .parrafo-principal {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 
@@ -104,7 +104,7 @@ body {
     height: 100%;
   }
 }
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1024px) {
   .container {
     width: auto;
     max-width: 100%;
@@ -163,6 +163,7 @@ body {
 /* productos */
 .h1-productos {
   border: 1px solid #c2b8a3;
+  padding-top: 5px;
   text-align: center;
 }
 
@@ -210,7 +211,7 @@ body {
 /* CONTACTOS */
 .h1-contacto {
   border: 1px solid #c2b8a3;
-  padding-top: 10px;
+  padding-top: 5px;
   text-align: center;
 }
 
@@ -267,12 +268,14 @@ body {
 /* Normas */
 .main-normas .h1 {
   border: 1px solid #c2b8a3;
+  padding-top: 5px;
   color: black;
   text-align: center;
 }
 
 .p1 {
   color: black;
+  font-size: 20px;
 }
 
 .div-normas input[id^=spoiler] {
@@ -333,9 +336,22 @@ body {
   color: black;
   font-size: 25px;
 }
+@media only screen and (max-width: 480px) {
+  .parrafo-sobre-nosotros {
+    font-size: 15px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .parrafo-sobre-nosotros {
+    font-size: 20px;
+    width: 100%;
+  }
+}
 
 .h-uno-sobre-nosotros {
   border: 1px solid #c2b8a3;
+  padding-top: 5px;
   text-align: center;
 }
 

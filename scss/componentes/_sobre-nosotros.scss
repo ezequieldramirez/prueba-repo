@@ -3,8 +3,21 @@
     .parrafo-sobre-nosotros {
         text-align: center;
         color: black;
-        font-size: 25px;}
+        font-size: 25px;
+    
+        @media only screen and(max-width: 480px) {
+            font-size: 15px;
+            width: 100%;
+            
+          }
+
+          @media only screen and(max-width: 768px) {
+            font-size: 20px;
+            width: 100%;
+         }
+    }
      
      .h-uno-sobre-nosotros {
         border: 1px solid #c2b8a3;
+        padding-top: 5px;
         text-align: center;}
