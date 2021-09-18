@@ -1,12 +1,31 @@
     /* Sobre nosotros */
 
    .section-sn {
-     width: 100%;
-     height: 60vh;
-     background-color: #FEF7DC;
-     display: flex;
-     justify-content: center;
-     align-items: center;}
+    width: 100%;
+    height: 60vh;
+    background-color: #FEF7DC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    @media only screen and(max-width: 480px) {
+    flex-direction: column;
+    width: auto;
+    height: 100%;}
+
+    @media only screen and(max-width: 768px) {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;}  
+  
+   @media only screen and(max-width: 960px) {
+    height: 100%;  
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;}
+                      }
 
    .box {
     width: 33%;
@@ -15,61 +34,112 @@
     overflow: hidden;
     position: relative;
     margin: 1.5%;
-    border-radius: 10px;}
-   
-    .box img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;}
-
-      .box .hover {
-        width: 0%;
-        height: 50vh;
-        background-color: rgb(55, 55, 55, 0.555);
-        position: absolute;
-        top: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-        transition: .7s all;}
-   
-        .hover h2 {
-          color: #FEF7DC;
-          text-shadow: 1px 1px 1px black;
-          font-size: 2.5em;
-          text-transform: uppercase;}
-
-          .box:hover .hover {
-            width: 100%;
-           }
-
-
-.h-uno-sobre-nosotros { display: flex;
-  justify-content: center;
-  border: 1px solid #c2b8a3;
-
+    border-radius: 10px;
+  
     @media only screen and(max-width: 480px) {
-      font-size: 15px;
-      width: 100%;
-      height: 100%;
-      
-    }
+    flex-direction: column;
+    width: 80%;
+    height: 100%;}  
 
     @media only screen and(max-width: 768px) {
-      font-size: 20px;
-      width: 100%;
-      height: 100%;
-   }  
-
+    flex-direction: column;
+    width: 100%;
+    height: 100%;}  
+  
    @media only screen and(max-width: 960px) {
-         height: 100%;    
-  }  
-  }
+    height: 100%;  
+    width: 80%;} 
+             }
+   
+    .box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    @media only screen and(max-width: 480px) {
+    width:auto;
+    height: 300px;}
+    
+    @media only screen and(max-width: 768px) {
+    width: 100%;
+    height: 300px;}
+      
+    @media only screen and(max-width: 960px) {
+      width: 100%;
+      height: 350px;
+    }
+                  }
+
+    .box .hover {
+    width: 0%;
+    height: 50vh;
+    background-color: rgb(55, 55, 55, 0.555);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: .7s all;
+  
+  
+
+    @media only screen and(max-width: 480px) {
+      width: 100%;
+      height: 350px;}
+
+    @media only screen and(max-width: 768px) {
+      width: 100%;
+      height: 350px;}      
+  
+  
+      @media only screen and(max-width: 960px) {
+        width: 100%;
+        height: 350px;}
+                    }
+      
+   
+    .hover h2 {
+    color: #FEF7DC;
+    text-shadow: 1px 1px 1px black;
+    font-size: 2.5em;
+    text-transform: uppercase;
+        
+        
+    @media only screen and(max-width: 480px) {
+    font-size: 30px;}
+        
+    @media only screen and(max-width: 768px) {
+    font-size: 50px}  
+                  }
+
+    .box:hover .hover {
+    width: 100%;}
+
+
+    .h-uno-sobre-nosotros { display: flex;
+    justify-content: center;
+    border: 1px solid #c2b8a3;
+
+    @media only screen and(max-width: 480px) {
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    height: 100%;}
+
+    @media only screen and(max-width: 768px) {
+    font-size: 20px;
+    width: 100%;
+    height: 100%;}  
+
+    @media only screen and(max-width: 960px) {
+    height: 100%;  
+    font-size: 35px;}  
+                  }
 
     .parrafo-sobre-nosotros {
-        text-align: center;
-        color: black;
-        font-size: 20px;
-        padding: auto;
-       width: 100%;}
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    padding: auto;
+    width: 100%;}
